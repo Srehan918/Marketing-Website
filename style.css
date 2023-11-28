@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #1a1919;
+  font-family: 'Exo 2', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(88, 221, 221);
+}
+
+ .main-btn {
+    background-color: transparent;
+    color: white;
+    padding: 5px 18px;
+    outline: none;
+    border: 1.5px solid white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+
+
+
+ .main-btn:hover {
+    background-color: rgb(88, 221, 221);
+    color: black;
+    border: 1.5px solid rgb(88, 221, 221);
+    transition: 0.3s all ease-in-out;
+}
+
+
+
+
+
+
+/* ===================================== */
+
+#header {
+  background-color: black;
+}
+
+#header .logo {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#header ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#header ul li a:hover {
+  color: rgb(88, 221, 221);
+  transition: 0.5s all;
+}
+
+
+#header .social-icon a{
+    margin-right: 7px;
+    font-size: 18px;
+}
+
+#header .social .main-btn {
+    background-color: transparent;
+    color: white;
+    padding: 5px 18px;
+    outline: none;
+    border: 1.5px solid white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+
+
+
+#header .social .main-btn:hover {
+    background-color: rgb(88, 221, 221);
+    color: black;
+    border: 1.5px solid rgb(88, 221, 221);
+    transition: 0.3s all ease-in-out;
+}
+
+#header .social .main-btn i {
+    margin-right: 8px;
+}
+
+#banner {
+    height: 80vh;
+}
+
+
+
+#banner .banner1{
+    height: 70vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.884)), url(images/background2.jpg) ;    
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner .banner-content{
+    position: absolute;
+    bottom: 30%; 
+    right: 50%;
+    text-align: center;
+}
+
+#banner .banner1 h1 {
+    font-size: 82px;
+    font-weight: 900;
+    color: rgb(88, 221, 221);;
+}
+
+
+#cards {
+    height: 90vh;
+}
+
+#cards .cards {
+    height: 80vh;
+}
+
+#cards .card-content {
+    background-color: black;
+    text-align: center;
+    transition: all 0.5s;
+    transform: translate(0px, -18px);
+    
+}
+
+#cards .card-content:hover {
+    background-color: rgb(55, 110, 110);
+    transition: all 0.5s;   
+    transform: translate(0px, -28px);
+}
+
+#cards .card-content i {
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(88, 221, 221);
+}
+
+
+#cards .card-content h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+#cards .card-content p {
+    color: white;
+}
+
+#cards .card-content a i {
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    color: white;
+
+}
+
+#about {
+    height: 50vh;
+}
+
+#about .about-content {
+    border-top: 5px solid rgb(88, 221, 221);
+}
+
+#about img {
+    max-width: 530px;
+    max-height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#about h2 {
+    color: white;
+    font-size: 52px;
+    margin-top: 40px;
+}
+
+#about p {
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+
+#ideas {
+    height: 60vh;
+    width: 100%;
+}
+
+#ideas .content-ideas {
+    border-top: 5px solid rgb(88, 221, 221);
+}
+
+#ideas .content-ideas h1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 46px;
+    color: white;
+}
+
+#ideas .content-ideas .ideas-same {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+#ideas .content-ideas .ideas-same h3 {
+    margin-top: 12px;
+    margin-bottom: 12px; 
+    font-size: 28px;
+    color: white;
+}
+
+
+#ideas .content-ideas p {
+    color: rgb(170, 170, 170);
+    font-size: 18px;
+}
+
+#ideas .content-ideas .ideas-same i {
+    color: rgb(88, 221, 221);
+    font-size: 26px;
+}
+
+
+/* .features {
+    height: 100vh;
+} */
+/* .features .cards {
+    height: 100vh;
+} */
+
+.features .feature-head {
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+.features .feature-head h1 {
+    color: white;
+    font-size: 64px;
+}
+
+.features .feature-head p {
+    color: rgb(170, 170, 170);
+}
+
+
+#portfolio {
+    height: 80vh;
+}
+
+
+#portfolio .portfolio-content  {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#portfolio .portfolio-content h1 {
+    color: white;
+    font-size: 64px;
+}
+
+#portfolio .portfolio-content p {
+    color: rgb(170, 170, 170);
+}
+
+#portfolio img {
+    width: 380px;
+    height: 480px;
+    object-fit: cover;
+}
+
